@@ -1,7 +1,7 @@
 export const flipkartApi=async()=>{
 
 
-    let data = fetch('https://fakestoreapi.com/products/')
+    let data = fetch('/')
     data=await(await data).json()
     return data
 }
