@@ -2,6 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import img1 from '../../static/imag/111.jpeg'
 import img2 from '../../static/imag/123.jpeg'
 import img3 from '../../static/imag/111.jpeg'
+import React from 'react';
 
 export const Mycarousel:React.FC<{}>=()=>{
     return <>

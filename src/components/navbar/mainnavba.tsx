@@ -6,8 +6,8 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
-export const Mainnavbar:React.FC<{}>=()=>{
-    return<>
+export const Mainnavbar: React.FC<{}> = () => {
+  return <>
     <Box sx={{ gridGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
@@ -22,14 +22,14 @@ export const Mainnavbar:React.FC<{}>=()=>{
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             <center>
-           E-commerce website from React (K.VIJAYKUMAR)
-           </center> 
+              E-commerce website from React (K.VIJAYKUMAR)
+            </center>
           </Typography>
           <Button color="inherit">Login</Button>
           <Button color="inherit">Add to Cart 🛒</Button>
         </Toolbar>
       </AppBar>
     </Box>
-    </>
+  </>
 };
 

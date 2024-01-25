@@ -2,7 +2,7 @@ import { Grid } from "@mui/material"
 import { Mycarousel } from "../components/carousel/Mycarousel"
 import { Mainnavbar } from "../components/navbar/mainnavba"
 import { Card, Mycard } from "../components/card/card"
-import img1 from '../static/imag/123.jpeg'
+import img1 from '../static/imag/111.jpeg'
 import img2 from '../static/imag/222.jpeg'
 import img3 from '../static/imag/111.jpeg'
 import img4 from '../static/imag/456.jpeg'
@@ -14,6 +14,7 @@ import img9 from '../static/imag/itachi.jpg'
 import img10 from '../static/imag/avengers.jpg'
 import { useEffect, useState } from "react"
 import { flipkartApi } from "../api/flipkart"
+import React from "react"
 
 export const Home:React.FC<{}>=()=>{
   let [data,setData]=useState<any>([]);
@@ -52,8 +53,6 @@ export const Home:React.FC<{}>=()=>{
 <Mycard img={img10}/>
 
 </Grid>
-<h1>static way</h1>
-
 <br />
 <Grid
   container

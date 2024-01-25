@@ -5,6 +5,7 @@ import {MyHook} from "../components/MyHook"
 import { SocialMedisSharing } from "../components/reactshare/SocialMediasSharing"
 import { Myprops } from "../components/props/Myprops"
 import { Myuseffect } from "../components/hooks/Myuseffect"
+import React from "react"
 
 export const AllLEssons:React.FC<{}>=()=>{
     let [val,setVal]=useState('3')
